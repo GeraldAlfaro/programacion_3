@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/scss/style.css">
+    <link rel="stylesheet" href="assets/plugins/aos-master/dist/aos.css">
+    <link rel="stylesheet" href="assets/plugins/owlcarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+</head>
+<body>
+    <div class="container-fluid px-0 bg-transparent">
+        <header class="menu-header">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid text-white">
+                    <img src="assets/img/logo.png" alt="Logo que aun no existe xd" width="130" height="110" class="d-inline-block align-text-top">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item pe-5">
+                                <a class="nav-link" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item pe-5">
+                                <a class="nav-link" href="sobre_mi.html">Sobre mí</a>
+                            </li>
+                            <li class="nav-item pe-5">
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item pe-5">
+                                <a class="nav-link" href="galerias.html">Galerías</a>
+                            </li>
+                            <li class="nav-item pe-5">
+                                <a class="nav-link" href="enlaces.html">Enlaces</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+              </nav>
+        </header>
+    </div>
+    <section id="nosexd">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="position-absolute top-50 start-50 translate-middle titulo-galeria" data-aos="zoom-in" data-aos-duration="800">Las mejores imágenes que pude recopilar de algunos objetos o regiones del espacio exterior</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="galeria">
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-md-10 mx-auto">
+                    <div class="row gx-5 px-5" id="images-row">
+                        
+                        <!-- Modal -->
+                        <div class="modal fade modal2" id="modal-galeria" tabindex="-1" aria-labelledby="title-galeria" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h1 class="modal-title" id="title-galeria">Modal title</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body" id="modal-body-gal">
+                                <h3 class="descripcion-modal-gal mt-3 mb-5"></h3>
+                                <h5>Dato curioso:</h5>
+                                <h6 class="dato-modal-gal mb-5"></h6>
+                                    <div class="owl-carousel my-3 text-center">
+                                            <img class="img-fluid link-fancy1" src="" />
+                                            <img class="img-fluid link-fancy2" src="" />
+                                            <img class="img-fluid link-fancy3" src="" />
+                                            <img class="img-fluid link-fancy4" src="" />
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="boton-modal" data-bs-dismiss="modal"><span>Cerrar</span></button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h4 class="texto-footer">© 2023 Copyright: El Rincón Espacial <br>
+                    Todos los derechos reservados</h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+       <script src="assets/bootstrap/bootstrap-5.3.0/dist/js/bootstrap.bundle.js"></script>
+       <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+       <script src="assets/plugins/aos-master/dist/aos.js"></script>
+       <script src="assets/plugins/owlcarousel/dist/owl.carousel.min.js"></script>
+       <script src="assets/plugins/anime-master/lib/anime.min.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+       <script src="assets/js/script-galerias.js"></script>
+       <script> AOS.init(); </script>
+</body>
+</html>

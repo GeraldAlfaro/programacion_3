@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Rincón Espacial</title>
+    <link rel="stylesheet" href="assets/scss/style.css">
+    <link rel="stylesheet" href="assets/plugins/aos-master/dist/aos.css">
+    <link rel="stylesheet" href="assets/plugins/owlcarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/owlcarousel/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/plugins/package-swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="container-fluid px-0">
+        <header class="menu-header">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid text-white">
+                    <img src="assets/img/logo.png" alt="Logo que aun no existe xd" width="130" height="110" class="d-inline-block align-text-top">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item pe-5">
+                                <a class="nav-link" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item pe-5">
+                                <a class="nav-link" href="sobre_mi.html">Sobre mí</a>
+                            </li>
+                            <li class="nav-item pe-5">
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item pe-5">
+                                <a class="nav-link" href="galerias.html">Galerías</a>
+                            </li>
+                            <li class="nav-item pe-5">
+                                <a class="nav-link" href="enlaces.html">Enlaces</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+              </nav>
+        </header>
+    </div>
+    <main>
+     <!-- todos los blogs -->
+        <section class="posts">
+            <div class="container my-5">
+                <div class="row gx-5 px-5 mb-5" id="fila-blogs">
+                    <h1 class="my-5 subtitulos"><span>Todos los posts</span></h1>
+                        <div class="modal fade" id="modalInicio" tabindex="-1" aria-labelledby="modalInicioLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="modalInicioLabel">Modal title</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                                <div class="swiper swiper-modal">
+                                                    <div class="swiper-wrapper">
+                                                        <!-- Slides -->
+                                                        <div class="swiper-slide">
+                                                            <img class="img-fluid imagen-modal1" src="" alt="">
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <img class="img-fluid imagen-modal2" src="" alt="">
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <img class="img-fluid imagen-modal3" src="" alt="" >
+                                                        </div>
+                                                    </div>
+                                                    <!-- If we need navigation buttons -->
+                                                    <div class="swiper-button-prev"></div>
+                                                    <div class="swiper-button-next"></div>
+                                                </div>
+                                            <p class="descripcion-1 my-3"></p>
+                                            <p class="descripcion-2"></p>
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn boton-modal" data-bs-dismiss="modal"><span>Cerrar</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <!-- Creación de comentarios -->
+        <section class="comments mb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-12">
+                        <hr class="border border-2 border-dark opacity-100 mb-5">
+                        <h4 class="">Deje un comentario</h4>
+                        <form id="formulario">
+                            <div class="mb-3">
+                                <label for="icono" class="form-label mt-3">Su icono de perfil</label>
+                                <input class="form-control" type="file" id="icono">
+                              </div>
+                            <div class="my-3">
+                                <label for="nombre" class="form-label">Su nombre</label>
+                                <input name="nombre" type="text" class="form-control" id="nombre" required>
+                            </div>
+                            <div class="mb-5">
+                                <label for="comentario" class="form-label">Su comentario</label>
+                                <input class="form-control" id="comentario" rows="3" type="text" required>
+                            </div>
+                            <input type="submit" class="btn boton me-5" id="boton-comentario" value="Publicar comentario" data-texto="Tu comentario se ha publicado!">
+                            <div class="spinner-border d-none position-fixed top-50 end-50" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                              </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-8 comentarios-impresos">
+                        
+                        </div>
+                    </div>
+                    <!-- Toast de bootstrap -->
+                    <div class="tostada-xd">
+                        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                            <div class="toast-header">
+                            <strong class="subtitulo-toast me-auto">El Rincón Espacial</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                            </div>
+                            <div class="toast-body">
+                            ...
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h4 class="texto-footer">© 2023 Copyright: El Rincón Espacial <br>
+                    Todos los derechos reservados</h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/bootstrap-5.3.0/dist/js/bootstrap.bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="assets/plugins/aos-master/dist/aos.js"></script>
+    <script src="assets/plugins/owlcarousel/dist/owl.carousel.min.js"></script>
+    <script src="assets/plugins/package-swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script> AOS.init(); </script>
+</body>
+</html>

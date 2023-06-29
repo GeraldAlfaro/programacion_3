@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/scss/style.css">
+    <link rel="stylesheet" href="assets/plugins/particles.js-master/demo/css/style.css">
+    <link rel="stylesheet" href="assets/plugins/aos-master/dist/aos.css">
+    <link rel="stylesheet" href="assets/plugins/owlcarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/owlcarousel/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/plugins/package-swiper/swiper-bundle.min.css">
+    <title>El Rincón Espacial</title>
+</head>
+<body>
+    <div class="container-fluid" id="particles-js">
+        <!-- Navbar -->
+            <header class="menu-header">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid text-white">
+                        <img src="assets/img/logo.png" alt="Logo que aun no existe xd" width="130" height="110" class="d-inline-block align-text-top">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                            <ul class="nav navbar-nav">
+                                <li class="nav-item pe-5">
+                                    <a class="nav-link" href="index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item pe-5">
+                                    <a class="nav-link" href="sobre_mi.html">Sobre mí</a>
+                                </li>
+                                <li class="nav-item pe-5">
+                                    <a class="nav-link" href="blog.html">Blog</a>
+                                </li>
+                                <li class="nav-item pe-5">
+                                    <a class="nav-link" href="galerias.html">Galerías</a>
+                                </li>
+                                <li class="nav-item pe-5">
+                                    <a class="nav-link" href="enlaces.html">Enlaces</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                  </nav>
+            </header>
+        <h1 class="bienvenida" data-aos="fade-right" data-aos-offset="500" data-aos-duration="800">¡Hola! Solo soy un estudiante que quiere <br>compartir cosas interesantes sobre el <br>espacio exterior</h1>
+    </div>
+    <main>
+                <!-- Más recientes -->
+        <section class="posts">
+            <div class="container my-5">
+                <div class="row gx-5 px-5 mb-5" id="fila-destacados">
+                    <h1 class="my-5 subtitulos"><span>Lo más reciente</span></h1>
+                    <div class="modal fade modal1" id="modalInicio" tabindex="-1" aria-labelledby="modalInicioLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title" id="modalInicioLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                    <div class="modal-body">
+                                            <div class="swiper swiper-modal">
+                                                <!-- Additional required wrapper -->
+                                                <div class="swiper-wrapper">
+                                                    <!-- Slides -->
+                                                    <div class="swiper-slide">
+                                                        <img class="img-fluid imagen-modal1" src="" alt="">
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <img class="img-fluid imagen-modal2" src="" alt="">
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <img class="img-fluid imagen-modal3" src="" alt="" >
+                                                    </div>
+                                                </div>
+                                                <!-- If we need navigation buttons -->
+                                                <div class="swiper-button-prev"></div>
+                                                <div class="swiper-button-next"></div>
+                                            </div>
+                                            <p class="descripcion-1 my-3"></p>
+                                            <p class="descripcion-2"></p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn boton-modal" data-bs-dismiss="modal"><span>Cerrar</span></button>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Background  de galerias-->
+        <section class="presentacion-blog my-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-10">
+                    <h2 class="bienvenida-galerias position-absolute top-50 start-50 translate-middle" data-aos="fade-up" data-aos-duration="800">Echa un vistazo a las galerías que tengo aquí</h2>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- Slider bootstrap -->
+        <section class="slider-bs">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8 mx-auto px-0 rounded">
+                        <div id="carouselInicio" class="carousel slide" data-bs-ride="true" data-aos="fade-right" data-aos-duration="800" data-aos-offset="500" data-aos-duration="500">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselInicio" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselInicio" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselInicio" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                              <button type="button" data-bs-target="#carouselInicio" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                              <button type="button" data-bs-target="#carouselInicio" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                              <button type="button" data-bs-target="#carouselInicio" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active" data-bs-interval="5000">
+                                <img class="d-block w-100 rounded" src="assets/img/quasar-defaultb.png" alt="quasar" width="1200" height="600">
+                                <h3 class="subtitulo-swiper position-absolute top-50 start-50 translate-middle" data-aos="fade-up" data-aos-duration="800">Imágenes de Quásares</h3>
+                                <div class="gradiente"></div>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Están en mi página de "Galerías"</h5>
+                                    <p>Incluyo algunos datos curiosos por cada ítem, sé que le parecerán interesantes!</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item" data-bs-interval="2000">
+                                <img class="d-block w-100 rounded" src="assets/img/gigante_roja2b.png" alt="gigante_roja" width="1200" height="600">
+                                <h3 class="subtitulo-swiper position-absolute top-50 start-50 translate-middle" data-aos="fade-up" data-aos-duration="800">Imágenes de Gigantes Rojas</h3>
+                                <div class="gradiente"></div>
+                              </div>
+                              <div class="carousel-item" data-bs-interval="2000">
+                                <img class="d-block w-100 rounded" src="assets/img/que-son-brotes-rayos-gamma-defaultb.png" alt="rayos gamma" width="1200" height="600">
+                                <h3 class="subtitulo-swiper position-absolute top-50 start-50 translate-middle" data-aos="fade-up" data-aos-duration="800">Imágenes de Rayos Gamma</h3>
+                                <div class="gradiente"></div>
+                              </div>
+                              <div class="carousel-item" data-bs-interval="2000">
+                                <img class="d-block w-100 rounded" src="assets/img/que-son-las-supernovas-y-que-se-sabe-gracias-a-ellas-1280x720b.png" alt="super nova" width="1200" height="600">
+                                <h3 class="subtitulo-swiper position-absolute top-50 start-50 translate-middle" data-aos="fade-up" data-aos-duration="800">Imágenes de Supernovas</h3>
+                                <div class="gradiente"></div>
+                              </div>
+                              <div class="carousel-item" data-bs-interval="2000">
+                                <img class="d-block w-100 rounded" src="assets/img/galaxiab.png" alt="galaxia" width="1200" height="600">
+                                <h3 class="subtitulo-swiper position-absolute top-50 start-50 translate-middle" data-aos="fade-up" data-aos-duration="800">Imágenes de Galaxias</h3>
+                                <div class="gradiente"></div>
+                              </div>
+                              <div class="carousel-item" data-bs-interval="2000">
+                                <img class="d-block w-100 rounded" src="assets/img/ymasb.png" alt="ymas" width="1200" height="600">
+                                <h3 class="subtitulo-swiper position-absolute top-50 start-50 translate-middle" data-aos="fade-up" data-aos-duration="800">Y más!</h3>
+                                <div class="gradiente"></div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselInicio" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselInicio" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Carousel Inicio -->
+        <section class="my-5">
+        <div class="container-fluid bienvenida-enlaces-bg my-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="bienvenida-galerias position-absolute top-50 start-50 translate-middle" data-aos="fade-up" data-aos-duration="800">Recomiendo estos sitios web por si quieres conocer más</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="owl-carousel">
+                        <div>
+                            <h3 class="subtitulos-enlaces">NASA</h3>
+                            <img class="" src="assets/img/NASA_logo.svg.png" alt="logo nasa" width="600" height="393">
+                        </div>
+                        <div>
+                            <h3 class="subtitulos-enlaces">European Space Agency (ESA)</h3>
+                            <img class="img-fluid" src="assets/img/esa-logo-color.png" alt="ESA logo" width="613" height="450">
+                        </div>
+                        <div>
+                            <h3 class="subtitulos-enlaces">Space.com</h3>
+                            <img class="img-fluid" src="assets/img/space_com3.jpg.png" alt="logo space" width="613" height="450">
+                        </div>
+                        <div>
+                            <h3 class="subtitulos-enlaces">HubbleSite</h3>
+                            <img src="assets/img/hubble.jpg" alt="hubble" width="613" height="393">
+                        </div>
+                        <div>
+                            <h3 class="subtitulos-enlaces">Astronomy Picture Of The Day</h3>
+                            <img src="assets/img/apod_logo.png" alt="APOTD" width="420" height="393">
+                        </div>
+                        <div>
+                            <h3 class="subtitulos-enlaces">Sky & Telescope</h3>
+                            <img src="assets/img/sky_logo.jpg" alt="SKY & Telescope" width="420" height="393">
+                        </div>
+                        <div>
+                            <h3 class="subtitulos-enlaces">The Planetary Society</h3>
+                            <img src="assets/img/TPS-logo.png" alt="The Planetary Society" width="420" height="393">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h4 class="texto-footer">© 2023 Copyright: El Rincón Espacial <br>
+                    Todos los derechos reservados</h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/bootstrap-5.3.0/dist/js/bootstrap.bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="assets/plugins/particles.js-master/particles.js"></script>
+    <script src="assets/plugins/particles.js-master/demo/js/app.js"></script>
+    <script src="assets/plugins/particles.js-master/demo/particles.json"></script>
+    <script src="assets/plugins/particles.js-master/demo/js/lib/stats.js"></script>
+    <script src="assets/plugins/aos-master/dist/aos.js"></script>
+    <script src="assets/plugins/owlcarousel/dist/owl.carousel.min.js"></script>
+    <script src="assets/plugins/package-swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script> AOS.init(); </script>
+</body>
+</html>

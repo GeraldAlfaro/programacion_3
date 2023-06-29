@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Rincón Espacial</title>
+    <link rel="stylesheet" href="assets/scss/style.css">
+    <link rel="stylesheet" href="assets/plugins/aos-master/dist/aos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+    <link rel="stylesheet" href="assets/plugins/owlcarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/owlcarousel/dist/assets/owl.theme.default.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="container-fluid px-0">
+        <header class="menu-header">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid text-white">
+                    <img src="assets/img/logo.png" alt="Logo que aun no existe xd" width="130" height="110"
+                        class="d-inline-block align-text-top">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item pe-5">
+                                <a class="nav-link" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item pe-5">
+                                <a class="nav-link" href="sobre_mi.html">Sobre mí</a>
+                            </li>
+                            <li class="nav-item pe-5">
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item pe-5">
+                                <a class="nav-link" href="galerias.html">Galerías</a>
+                            </li>
+                            <li class="nav-item pe-5">
+                                <a class="nav-link" href="enlaces.html">Enlaces</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <main class="position-relative">
+        <section class="bg-sobremi">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 class="position-absolute top-50 start-50 translate-middle titulo-galeria" data-aos="zoom-in"
+                            data-aos-duration="800">Breve presentación de mí</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Tarjeta animada (fue mi primer intento de animación con el plugin) -->
+        <section class="nosequehaceraqui">
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col-md-10 mx-auto" data-aos="flip-up" data-aos-duration="800">
+                        <div class="presentacion sobremi-card">
+                            <div class="row">
+                                <div class="col-md-6 mt-5 text-center">
+                                    <img class="rounded foto" src="assets/img/istockphoto-1392182937-170667a.jpg"
+                                        alt="xd">
+                                </div>
+                                <div class="col-md-6 mt-5" id="col-texto">
+                                    <div class="texto-sobremi">
+                                        <h5 class="mb-3">Hola... soy</h5>
+                                        <strong class="subtitulos">Gerald Alfaro.</strong>
+                                        <h5 class="fw-bold my-4">Un simple estudiante de desarrollo web.</h5>
+                                        <p class="mb-3">Soy un novato en esto de hacer sitios web y se nota mucho con mi pobre diseño, este es uno de los varios proyectos en los que he estado y hecho</p>
+                                        <h5 class="my-3">Puedes contactarme en:</h5>
+                                        <p class="my-3"><i class="fa-brands fa-linkedin fa-xl"></i> Gerald Alfaro</p>
+                                        <p class="my-3"><i class="fa-solid fa-envelope fa-xl"></i>  geraldalfaro768@gmail.com</p>
+                                        <p class="my-3"><i class="fa-brands fa-square-instagram fa-xl"></i> gerald_12</p>
+                                    </div>
+                                    <button class="boton my-4" id="boton-sobremi">Mira esto</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Imágenes de mis proyectos -->
+        <section class="presentacion2">
+            <div class="container my-5" data-aos="zoom-in-down" data-aos-duration="800">
+                <div class="row">
+                    <div class="col-md-10 mx-auto">
+                        <h1 class="subtitulos"><span>Aquí hay algunas imágenes de los proyectos que he hecho</span></h1>
+                    </div>
+                    <div class="col-md-10 mx-auto mt-5 text-center">
+                                <div class="owl-carousel">
+                                    <div class="card-jobs">
+                                        <a href="assets/img/trabajo1.png" data-fancybox="gallery" data-caption="Recreación del sitio 'Muniviña', el header y parte de la página de 'Nuestra Ciudad'.">
+                                            <img src="assets/img/trabajo1.png">
+                                        </a>
+                                    </div>
+                                    <div class="card-jobs">
+                                        <a href="assets/img/trabajo2.png" data-fancybox="gallery" data-caption="Misma página pero es al final de la misma, se muestra el footer que tiene efectos hover">
+                                            <img src="assets/img/trabajo2.png">
+                                        </a>
+                                    </div>
+                                    <div class="card-jobs">
+                                        <a href="assets/img/trabajo3.png" data-fancybox="gallery" data-caption="Intento de réplica de landing page 'Marshall brand product'.">
+                                            <img src="assets/img/trabajo3.png">
+                                        </a>
+                                    </div>
+                                    <div class="card-jobs">
+                                        <a href="assets/img/trabajo4.png" data-fancybox="gallery" data-caption="Misma landing page pero son las especificaciones técnicas del producto.">
+                                            <img src="assets/img/trabajo4.png">
+                                        </a>
+                                    </div>
+                                    <div class="card-jobs">
+                                        <a href="assets/img/trabajo5.png" data-fancybox="gallery" data-caption="Formulario de contacto y footer de la landing page.">
+                                            <img src="assets/img/trabajo5.png">
+                                        </a>
+                                    </div>
+                                    <div class="card-jobs">
+                                        <a href="assets/img/trabajo6.png" data-fancybox="gallery" data-caption="Sitio web de agencia de arquitectos, lo que se muestra es una parte de la página del inicio.">
+                                            <img src="assets/img/trabajo6.png">
+                                        </a>
+                                    </div>
+                                    <div class="card-jobs">
+                                        <a href="assets/img/trabajo7.png" data-fancybox="gallery" data-caption="Tarjetas de la página de 'Blogs' del mismo sitio web. Se muestra con un efecto hover simple">
+                                            <img src="assets/img/trabajo7.png">
+                                        </a>
+                                    </div>
+                                    <div class="card-jobs">
+                                        <a href="assets/img/trabajo8.png" data-fancybox="gallery" data-caption="Página de contacto de la agencia">
+                                            <img src="assets/img/trabajo8.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h4 class="texto-footer">© 2023 Copyright: El Rincón Espacial <br>
+                    Todos los derechos reservados</h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/bootstrap-5.3.0/dist/js/bootstrap.bundle.js"></script>
+    <script src="assets/plugins/aos-master/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="assets/plugins/anime-master/lib/anime.min.js"></script>
+    <script src="https://kit.fontawesome.com/65729a265a.js" crossorigin="anonymous"></script>
+    <script src="assets/plugins/owlcarousel/dist/owl.carousel.min.js"></script>
+    <script> AOS.init(); </script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="assets/js/script-sobremi.js"></script>
+
+</body>
+
+</html>

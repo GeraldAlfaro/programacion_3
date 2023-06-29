@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/scss/style.css">
+    <link rel="stylesheet" href="assets/plugins/aos-master/dist/aos.css">
+</head>
+<body>
+    <!-- Que no se note que esta página es puro relleno xd -->
+    <!-- Navbar -->
+    <div class="container-fluid px-0">
+        <header class="menu-header">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid text-white">
+                    <img src="assets/img/logo.png" alt="Logo que aun no existe xd" width="130" height="110" class="d-inline-block align-text-top">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item pe-5">
+                                <a class="nav-link" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item pe-5">
+                                <a class="nav-link" href="sobre_mi.html">Sobre mí</a>
+                            </li>
+                            <li class="nav-item pe-5">
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item pe-5">
+                                <a class="nav-link" href="galerias.html">Galerías</a>
+                            </li>
+                            <li class="nav-item pe-5">
+                                <a class="nav-link" href="enlaces.html">Enlaces</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+              </nav>
+        </header>
+    </div>
+    <!-- Cohete animado -->
+    <main>
+        <section class="bg-enlaces">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8 mx-auto py-5">
+                        <h3 class="position-absolute top-0 start-50 translate-middle mt-5 titulo-enlaces">Sitios web que recomiendo visitar si te interesan estos temas</h3>
+                        <div class="wrapper">
+                            <img id="cohete" src="assets/img/cohete.png" alt="cohete" width="100" height="100">
+                            <svg id="trazo-svg" width="1000" height="500">
+                                <path stroke="transparent" fill="none" d="M 50 250 L 150 100 L 300 200 L 400 100 L 550 200 L 700 100 L 900 50 L 1100 100 L 1000 600 L 350 650 L 100 550 Z"></path>
+                            </svg>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Distribución de sitios web -->
+        <section class="enlaces">
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col-md-10 mx-auto columna-enlaces">
+                        <div class="row" id="nasa">
+                            <div class="col-md-4" data-aos="fade-right" data-aos-duration="600">
+                                <img class="img-fluid" src="assets/img/NASA_logo.svg.png" alt="nasa">
+                            </div>
+                            <div class="col-md-6 mx-auto my-auto" data-aos="fade-left" data-aos-duration="600">
+                                <h3 class="subtitulos my-3">Nasa</h3>
+                                <p class="my-4">La Administración Nacional de Aeronáutica y del Espacio de Estados Unidos ofrece una amplia gama de información sobre la exploración espacial, misiones actuales, imágenes astronómicas, noticias y recursos educativos.</p>
+                                <div class="boton-cuadro my-5">
+                                    <a href="#nasa" class="boton text-decoration-none" onclick="nasa()">Visitar sitio</a>
+                                </div>
+                            </div>
+                            <hr class="opacity-100 border-danger border-3 mt-3">
+                        </div>
+                        <div class="row" id="esa">
+                            <div class="col-md-6 mx-auto my-auto" data-aos="fade-right" data-aos-duration="600">
+                                <h3 class="subtitulos my-3">European Space Agency (ESA)</h3>
+                                <p class="my-4">La Agencia Espacial Europea proporciona noticias, información sobre misiones espaciales europeas, imágenes impresionantes del espacio y datos científicos.</p>
+                                <div class="boton-cuadro my-5">
+                                    <a href="#esa" class="boton text-decoration-none" onclick="esa()">Visitar sitio</a>
+                                </div>
+                            </div>
+                            <div class="col-md-5" data-aos="fade-left" data-aos-duration="600">
+                                <img class="img-fluid" src="assets/img/esa-logo-color.png" alt="esa">
+                            </div>
+                            <hr class="opacity-100 border-danger border-3 mt-3">
+                        </div>
+                        <div class="row" id="space">
+                            <div class="col-md-5 my-3" data-aos="fade-right" data-aos-duration="600">
+                                <img class="img-fluid" src="assets/img/space_com3.jpg.png" alt="space">
+                            </div>
+                            <div class="col-md-6 mx-auto my-auto" data-aos="fade-left" data-aos-duration="600">
+                                <h3 class="subtitulos my-3">Space.com</h3>
+                                <p class="my-4">Space.com es un sitio web de noticias dedicado a cubrir todos los aspectos de la astronomía y la exploración espacial. Ofrece artículos, imágenes, videos y cobertura en vivo de eventos espaciales.</p>
+                                <div class="boton-cuadro my-5">
+                                    <a href="#space" class="boton text-decoration-none" onclick="spacecom()">Visitar sitio</a>
+                                </div>
+                            </div>
+                            <hr class="opacity-100 border-danger border-3 mt-3">
+                        </div>
+                        <div class="row" id="hubble">
+                            <div class="col-md-6 mx-auto my-auto" data-aos="fade-right" data-aos-duration="600">
+                                <h3 class="subtitulos my-3">HubbleSite</h3>
+                                <p class="my-4">HubbleSite es el sitio web oficial del Telescopio Espacial Hubble de la NASA y la ESA. Proporciona imágenes espectaculares y datos científicos obtenidos por el Hubble, así como noticias y recursos educativos.</p>
+                                <div class="boton-cuadro my-5">
+                                    <a href="#hubble" class="boton text-decoration-none" onclick="hubble()">Visitar sitio</a>
+                                </div>
+                            </div>
+                            <div class="col-md-5 my-3" data-aos="fade-left" data-aos-duration="600">
+                                <img class="img-fluid" src="assets/img/hubbleicon.png" alt="space">
+                            </div>
+                            <hr class="opacity-100 border-danger border-3 mt-3">
+                        </div>
+                        <div class="row" id="apod">
+                            <div class="col-md-5 my-3" data-aos="fade-right" data-aos-duration="600">
+                                <img class="img-fluid" src="assets/img/apod_logo.png" alt="space">
+                            </div>
+                            <div class="col-md-6 mx-auto my-auto" data-aos="fade-left" data-aos-duration="600">
+                                <h3 class="subtitulos my-3">Astronomy Picture of the Day</h3>
+                                <p class="my-4"> Astronomy Picture of the Day (APOD) es un sitio web de la NASA que presenta una imagen astronómica destacada cada día, acompañada de una breve explicación escrita por un astrónomo profesional.</p>
+                                <div class="boton-cuadro my-5">
+                                    <a href="#apod" class="boton text-decoration-none" onclick="apod()">Visitar sitio</a>
+                                </div>
+                            </div>
+                            <hr class="opacity-100 border-danger border-3 mt-3">
+                        </div>
+                        <div class="row" id="sky">
+                            <div class="col-md-6 mx-auto my-auto" data-aos="fade-right" data-aos-duration="600">
+                                <h3 class="subtitulos my-3">Sky & Telescope</h3>
+                                <p class="my-4"> Sky & Telescope es una revista y un sitio web dedicados a la astronomía, la astrofotografía y la observación del cielo. Ofrece artículos informativos, guías de observación, noticias y recursos para astrónomos aficionados.</p>
+                                <div class="boton-cuadro my-5">
+                                    <a href="#sky" class="boton text-decoration-none" onclick="sky()">Visitar sitio</a>
+                                </div>
+                            </div>
+                            <div class="col-md-5 my-3" data-aos="fade-left" data-aos-duration="600">
+                                <img class="img-fluid" src="assets/img/sky_logo.jpg" alt="space">
+                            </div>
+                            <hr class="opacity-100 border-danger border-3 mt-3">
+                        </div>
+                        <div class="row" id="tps">
+                            <div class="col-md-4 my-5" data-aos="fade-right" data-aos-duration="600">
+                                <img class="img-fluid" src="assets/img/TPS-logo.png" alt="space">
+                            </div>
+                            <div class="col-md-6 my-5 mx-auto my-auto" data-aos="fade-left" data-aos-duration="600">
+                                <h3 class="subtitulos my-3">The Planetary Society</h3>
+                                <p class="my-4">The Planetary Society es una organización sin fines de lucro dedicada a la exploración del sistema solar y la defensa del espacio. Su sitio web proporciona noticias espaciales, información sobre misiones planetarias y recursos educativos.</p>
+                                <div class="boton-cuadro my-5">
+                                    <a href="#tps" class="boton text-decoration-none" onclick="planetary()">Visitar sitio</a>
+                                </div>
+                            </div>
+                            <hr class="opacity-100 border-danger border-3 mt-3">
+                        </div>
+                        <div class="row" id="robotitus">
+                            <div class="col-md-6 my-5 mx-auto my-auto" data-aos="fade-right" data-aos-duration="600">
+                                <span>¡Bonus!</span>
+                                <h3 class="subtitulos my-3">Robotitus</h3>
+                                <p class="my-4">El portal Robotitus publica noticias científicas fiables y rigurosas con el fin de informar y entretener a cientos de miles de lectores cada mes. Divulgan temas científicos actuales, dando la opción a los usuarios a tener un portal en español y no tener que recurrir siempre a los sitios en inglés.</p>
+                                <div class="boton-cuadro my-5">
+                                    <a href="#robotitus" class="boton text-decoration-none" onclick="robotitus()">Visitar sitio</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 my-5" data-aos="fade-left" data-aos-duration="600">
+                                <img class="img-fluid" src="assets/img/robotitus2.png" alt="space">
+                            </div>
+                            <hr class="opacity-100 border-danger border-3 mt-3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h4 class="texto-footer">© 2023 Copyright: El Rincón Espacial <br>
+                    Todos los derechos reservados</h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/bootstrap-5.3.0/dist/js/bootstrap.bundle.js"></script>
+    <script src="assets/plugins/anime-master/lib/anime.min.js"></script>
+    <script src="assets/plugins/aos-master/dist/aos.js"></script>
+    <script> AOS.init(); </script>
+    <script>
+        // Animación del cohete
+        let path = anime.path('#trazo-svg path')
+
+        let animate1 = anime({
+            targets: '#cohete',
+            translateX: path('x'),
+            translateY: path('y'),
+            easing: 'linear',
+            scale: [1.3, 0.5, 1.6, 0.7, 1],
+            rotate: '1turn',
+            duration: 5000,
+            loop: true
+        })
+        /* Esto es para que los dispositivos que tengan menos de 1000 de ancho no puedan ver la animacion (traté de hacerlo responsive,
+        pero solo funcionaba si a mi navegador le cambiaba el ancho para llegar a ese width, si cargaba la página como si fuera un celular la animación rompía las dimensiones.) */
+        if (window.innerWidth < 1000) animate1.pause();
+        // Esto abre las ventanas a su respectivo sitio web, pero en una ventana nueva.
+        function nasa(){
+            window.open("https://www.nasa.gov/", "_blank", "status=yes,resizable=yes,left=0,top=0,fullscreen=yes");
+        }
+        function esa(){
+            window.open("https://www.esa.int/Space_in_Member_States/Spain", "_blank","status=yes,resizable=yes,left=0,top=0,fullscreen=yes")
+        }
+        function spacecom(){
+            window.open("https://www.space.com", "_blank","status=yes,resizable=yes,left=0,top=0,fullscreen=yes")
+        }
+        function hubble(){
+            window.open("https://hubblesite.org/home", "_blank","status=yes,resizable=yes,left=0,top=0,fullscreen=yes")
+        }
+        function apod(){
+            window.open("https://apod.nasa.gov", "_blank","status=yes,resizable=yes,left=0,top=0,fullscreen=yes")
+        }
+        function sky(){
+            window.open("https://skyandtelescope.org", "_blank","status=yes,resizable=yes,left=0,top=0,fullscreen=yes")
+        }
+        function planetary(){
+            window.open("https://www.planetary.org", "_blank","status=yes,resizable=yes,left=0,top=0,fullscreen=yes")
+        }
+        function robotitus(){
+            window.open("https://www.robotitus.com", "_blank","status=yes,resizable=yes,left=0,top=0,fullscreen=yes")
+        }
+    </script>
+</body>
+</html>
