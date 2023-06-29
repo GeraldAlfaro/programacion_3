@@ -1,0 +1,105 @@
+{
+    "referencia":
+    [
+        {
+            "id":"1",
+            "nombre": "Agujeros Negros",
+            "descripcion": "Regiones en el espacio en el que ninguna partícula, ni si quiera la luz puede escapar.",
+            "curioso": "El agujero negro, llamado Gaia BH1, es 10 veces más masivo que nuestro sol y se halla a poco menos de 1600 años luz de la Tierra. Su estrella compañera tiene una órbita similar a la que tiene la Tierra.",
+            "imgref": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/1200px-Black_hole_-_Messier_87_crop_max_res.jpg",
+            "img1": "https://dam.muyinteresante.com.mx/wp-content/uploads/2022/01/cuantos-agujeros-negros-hay-en-el-universo.jpeg",
+            "img2": "https://i.blogs.es/e3f6f2/agujero-negro/1366_2000.jpeg",
+            "img3": "https://static.nationalgeographic.es/files/styles/image_3200/public/Black_Holes_101_ES~~~~~es~mux~~1.jpg?w=1900&h=1069",
+            "img4": "https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2020/07/agujero-negro-supermasivo-colapso-estrella-fugitiva.jpg?resize=1200%2C720&quality=80&ssl=1"
+        },
+        {
+            "id":"2",
+            "nombre": "Supernovas",
+            "descripcion": "Una explosión estelar que ocurre cuando una estrella masiva o una enana blanca se desencadena en una fusión nuclear descontrolada.",
+            "curioso": "El 20 de septiembre de 2016, un astrónomo aficionado llamado Víctor Buso se convirtió en la primera persona en la historia en fotografiar el nacimiento de una supernova a 86 millones de años luz, en la galaxia espiral NGC 613, al explotar la estrella bautizada SN 2016gkg.",
+            "imgref": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Keplers_supernova.jpg/640px-Keplers_supernova.jpg",
+            "img1": "https://static.nationalgeographic.es/files/styles/image_3200/public/NW_DLY_ds1802001_13_cassiopeia_A_animation_ES~~~~~es~mux~~1.jpg?w=1900&h=1069",
+            "img2": "https://scitechdaily.com/images/Abstract-Astrophysics-Supernova-Explosion-Concept.jpg",
+            "img3": "https://static.nationalgeographicla.com/files/styles/image_3200/public/supernova.jpg?w=1600",
+            "img4": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2014/12/multicoloured_view_of_supernova_remnant/15172784-1-eng-GB/Multicoloured_view_of_supernova_remnant_pillars.jpg"
+        },
+        {
+            "id":"3",
+            "nombre": "Superficie en Marte",
+            "descripcion": "El planeta rojo, el cuarto en orden de distancia al Sol.",
+            "curioso": "A pesar de parecer un desierto, se sabe que la atmósfera de Marte tiene un 0,01% de agua en forma de vapor y que hay agua helada en el subsuelo.",
+            "imgref": "https://www.nationalgeographic.com.es/medio/2023/03/17/ilustracion-en-3d-de-marte_c8bf5a53_1300652810_230317104534_800x800.jpg",
+            "img1": "https://www.ngenespanol.com/wp-content/uploads/2023/06/marte-asi-es-el-enigmatico-planeta-rojo-del-sistema-solar-universo.jpg",
+            "img2": "https://imagenes.muyinteresante.es/files/article_social/uploads/2022/10/13/634840467172e.jpeg",
+            "img3": "https://www.fmpalihue.com/uploads/noticias/la-imagen-m-s-grande-de-la-superficie-de-marte.jpg",
+            "img4": "https://www.kebuena.com.mx/wp-content/uploads/2021/02/asi-suena-marte-la-nasa-revela-el-sonido-real-de-la-superficie-del-planeta-rojo-1-e1614106241469.jpg"
+            
+        },
+        {
+            "id":"4",
+            "nombre": "Brote de Rayos Gamma",
+            "descripcion": "Es la explosión electromagnética más luminosa que existe, se produce cuando dos estrellas de neutrones chocan entre si.",
+            "curioso": "Estos brotes, solo con la radiacion, pueden provocar una extinción masiva. Uno de estos podría haber golpeado la Tierra en el siglo VIII, de acuerdo con un estudio reciente.",
+            "imgref": "https://metode.es/wp-content/uploads/2017/03/fig3-535x682.jpg",
+            "img1": "https://cdn.eso.org/images/screen/eso1049a.jpg",
+            "img2": "https://cdn-3.expansion.mx/dims4/default/0f33c76/2147483647/strip/true/crop/1024x768+0+0/resize/1200x900!/format/webp/quality/60/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Fe4%2F0c%2F3520512f47acacc970d0623d3c89%2F6308173325-6d389d8977-b.jpg",
+            "img3": "https://www.astrobitacora.com/wp-content/uploads/2018/07/QuasarJetDrawing_DESY_3508.jpg",
+            "img4": "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2022/10/rayos-gamma-2843191.jpg?tf=3840x"
+        },
+        {
+            "id":"5",
+            "nombre": "Galaxias",
+            "descripcion": "Conjunto de gases, polvo y miles de millones de estrellas y sus sistemas solares. Se mantiene unida gracias a la fuerza de gravedad.",
+            "curioso": "Debido a la fuerza de gravedad, la galaxia de Andrómeda y la Vía Lactea colisionarán en un futuro muy lejano, esto hará que se fusionen y formen una galaxia mucho más grande.",
+            "imgref": "https://noirlab.edu/public/media/archives/images/screen/iotw2214a.jpg",
+            "img1": "https://s1.eestatic.com/2017/01/05/actualidad/actualidad_183744742_129728059_1706x960.jpg",
+            "img2": "https://cnnespanol.cnn.com/wp-content/uploads/2022/08/220810134115-colliding-galaxies-gemini-north-full-169.jpg?quality=100&strip=info",
+            "img3": "https://nuestroclima.com/wp-content/uploads/2017/10/110559main_image_feature_283_ajhfull.jpg",
+            "img4": "https://www.wallpapertip.com/wmimgs/66-662016_barred-spiral-galaxy.jpg"
+        },
+        {
+            "id":"6",
+            "nombre": "Cometas",
+            "descripcion": "Cuerpo celeste constituido por polvo, rocas y partículas de hielo que orbita alrededor del Sol siguiendo diferentes trayectorias elípticas.",
+            "curioso": "En febrero de 2023, se pudo observar un cometa verde que tiene de nombre '2022 E3(ZTF)'. Fue un fenómeno astronómico que se pudo apreciar desde Chile a través de una oportunidad única, ya que este pasa una vez cada 50 mil años (me arrepiento de no haberlo visto).",
+            "imgref": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Comet-Hale-Bopp-29-03-1997_hires_adj.jpg/1200px-Comet-Hale-Bopp-29-03-1997_hires_adj.jpg",
+            "img1": "https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic548814.jpg?w=1900&h=1368",
+            "img2": "https://s2.ppllstatics.com/elcorreo/www/multimedia/202301/31/media/cortadas/cometa-kKJE-U190463119293Uy-1248x770@RC.jpg",
+            "img3": "https://cnnespanol.cnn.com/wp-content/uploads/2023/02/230201214749-cometa-verde-pba-full-169.jpeg?quality=100&strip=info",
+            "img4": "https://concepto.de/wp-content/uploads/2019/06/cometa-e1561938278988.jpg"
+        },
+        {
+            "id":"7",
+            "nombre": "Cuásares/Quasar",
+            "descripcion": "Se les define como una galaxia recién nacida, o más bien la fuente de energía que se presenta en el agujero negro del centro de dichas galaxias",
+            "curioso": "Se forman cuando un agujero negro empieza a 'engullir' toda la materia que está a su alrededor, produciento una cantidad gigantesca de energía, lo que los convierten en los objetos más brillantes y calientes del universo conocido",
+            "imgref": "https://www.nationalgeographic.com.es/medio/2019/06/14/representacion-artistica-de-un-cuasar_37527207_1259x944.jpg",
+            "img1": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Artist%27s_rendering_ULAS_J1120%2B0641.jpg/1200px-Artist%27s_rendering_ULAS_J1120%2B0641.jpg",
+            "img2": "https://img2.rtve.es/i/?w=1600&i=1342613711943.jpg",
+            "img3": "https://useruploads.socratic.org/3oexEVWSUaR4zaq5BTjx_quasar_1019x764.jpg",
+            "img4": "https://ngs-space1.sgp1.digitaloceanspaces.com/am/uploads/mediaGallery/image/1617825884806.jpg-org"
+        },
+        {
+            "id":"8",
+            "nombre": "Planetas Raros",
+            "descripcion": "Planetas/Exoplanetas que tienen características especiales, desde uno que lo llaman el infierno mismo hasta otro que está lleno de diamantes. El primero es 'Kepler 78b', el segundo es '55 Cancri e', el tercero es 'GJ 1214 b', y el cuarto es 'TrES 2b' ",
+            "curioso": "El planeta gaseoso TrES-2b, es considerado el planeta más oscuro que se haya descubierto, se estima que solo el 1% de la luz refleja su superficie, por lo que si estuvieras allí no podrías ver más allá de tu propia nariz",
+            "imgref": "https://services.meteored.com/img/article/planet-9-hidden-planet-solar-system-space-astronomy-1654017298417_1280.jpeg",
+            "img1": "https://i.ytimg.com/vi/eKbdfUUxMts/maxresdefault.jpg",
+            "img2": "https://www.nationalgeographic.com.es/medio/2018/02/28/55-cancri-e__1280x720.JPG",
+            "img3": "https://pbs.twimg.com/media/Euf2RDcWgAE6h7L.jpg:large",
+            "img4": "https://larepublica.cronosmedia.glr.pe/migration/images/RMNZYYIWPZBLXKDSWXCUAI77QQ.jpg"
+        },
+        {
+            "id":"9",
+            "nombre": "Nebulosas",
+            "descripcion": "Son las nubes en el espacio, están constituidas por gases, polvo, y otros elementos químicos. Provienen de una explosión de una estrella moribunda, como una supernova.",
+            "curioso": "Algunas nebulosas tienen formas bastante interesantes, a la que le hiciste click tiene de nombre 'Los pilares de la creación'. Se llaman así porque el gas y el polvo que las forman se encuentra en el proceso de creación de nuevas estrellas, mientras que también está siendo erosionado por la luz de las estrellas cercanas que se han formado recientemente.",
+            "imgref": "https://i.blogs.es/5231dc/pilares-creacion-webb-edit/1366_2000.jpg",
+            "img1": "https://media.gq.com.mx/photos/61a28750cf7498ed6449b64a/3:2/w_2999,h_1999,c_limit/Nebula.jpg",
+            "img2": "https://www.meteorologiaenred.com/wp-content/uploads/2018/08/Nebulosa-de-emisi%C3%B3n.jpg",
+            "img3": "https://medicoplus.com/_next/image?url=https%3A%2F%2Fplustatic.com%2F1704%2Fconversions%2Ftipos-nebulosas-large.jpg&w=1280&q=75",
+            "img4": "https://uvn-brightspot.s3.amazonaws.com/assets/vixes/btg/curiosidades.batanga.com/files/Las-nebulosas-Borges-y-el-origen-del-Sistema-Solar-1.jpg"
+        }
+    ]
+}

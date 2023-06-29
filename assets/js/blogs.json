@@ -1,0 +1,74 @@
+{
+    "masBlogs": 
+    [
+       {
+             "id": 1,
+             "titulo": "El Gran Atractor",
+             "Extracto": "La misteriosa región del cosmos hacia donde se dirigen miles de galaxias (incluida la Vía Láctea)",
+             "link": "https://ichef.bbci.co.uk/news/800/cpsprodpb/47A2/production/_129783381_gettyimages-1042985856.jpg",
+             "imagen1": "https://okdiario.com/img/2022/07/22/-en-que-consiste-el-gran-atractor_.jpg",
+             "imagen2": "https://www.ngenespanol.com/wp-content/uploads/2023/05/gran-atractor-galaxias.jpg",
+             "imagen3": "https://plustatic.com/6988/laniakea-que-es.jpg",
+             "descripcion1": "El Gran Atractor es una anomalía gravitatoria, situada en el supercúmulo Laniakea, que arrastra a las galaxias en un radio de más de 300 millones de años luz de distancia. Nuestra galaxia no solo se mueve sino que además se desplaza a gran velocidad, unos 600 kilómetros por segundo hacia un punto de nuestro cosmos al que se denomica el Gran Atractor. El universo es un gran tira y afloja de fuerzas e interacciones, objetos que se atraen y se repelen en un escenario que va expandiéndose. Las galaxias no son ajenas a estas interacciones, y esto implica que también se desplacen atraídas por el influjo gravitatorio de otros cuerpos igualmente o más masivos.",
+             "descripcion2": "Puesto que la materia (incluyendo la materia oscura) no está distribuida uniformemente a lo largo del universo, esta atracción puede hacer que dos galaxias choquen y se fusionen, pero también que, a mayor escala se formen cúmulos y supercúmulos galácticos. Estos supercúmulos tendrán centros de gravedad hacia los que se dirigirá toda la materia presente en ellos como fruto de esta interacción gravitatoria."
+             
+         },
+         {
+             "id": 2,
+             "titulo": "La foto con la mayor erupción solar jamás observada",
+             "Extracto": "La imagen capta lo que se conoce una erupción de protuberancia solar, la más grande que se haya visto hasta ahora.",
+             "link": "https://ichef.bbci.co.uk/news/800/cpsprodpb/D1E0/production/_123382735_solar11.jpg",
+             "imagen1": "https://fotografias.lasexta.com/clipping/cmsimages01/2014/06/13/46A6A213-2E5A-44BE-BFA9-1A2D3D9F5DE1/98.jpg?crop=1920,1080,x0,y0&width=1900&height=1069&optimize=low&format=webply",
+             "imagen2": "https://static.independentespanol.com/2022/05/02/16/April-30-X1-flare_131-171-304-1536x1536.jpeg?quality=75&width=1200&auto=webp",
+             "imagen3": "https://i.blogs.es/e3bbc8/solar-flare-edit/1366_2000.jpg",
+             "descripcion1": "La imagen de la colosal eyección de material solar fue divulgada esta semana por la Agencia Espacial Europea (ESA, por sus siglas en inglés), y fue captada el 15 de febrero por uno de los instrumentos de la nave espacial Solar Orbiter, una misión conjunta de la ESA y la NASA.",
+             "descripcion2": "Las protuberancias solares, no siempre, pero en muchas ocasiones, erupcionan y expulsan material solar al medio interplanetario y eventualmente ese material llega a la Tierra. Un científico señaló que cuando por alguna perturbación el campo magnético se reconfigura, cuando su topología cambia, la energía que estaba almacenada en el campo magnético se transforma en energía cinética, de movimiento del gas, que sale expulsado"
+             
+          },
+          {
+             "id": 3,
+             "titulo": "¿Qué es un agujero negro?",
+             "Extracto": "Es quizás el concepto más popular en la astronomía actualmente. Conocido por ser el monstruo que devora todo a su paso, que ni si quiera la misma luz puede escapar de el.",
+             "link": "https://ichef.bbci.co.uk/news/800/cpsprodpb/119B6/production/_114781127_bh_visualization.jpg",
+             "imagen1": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/1200px-Black_hole_-_Messier_87_crop_max_res.jpg",
+             "imagen2": "https://fotografias.lasexta.com/clipping/cmsimages01/2023/05/05/6EA27988-791E-4A3F-9404-B6B010FEEC4F/recreacion-agujero-negro_98.jpg?crop=1777,1000,x113,y0&width=1900&height=1069&optimize=high&format=webply",
+             "imagen3": "https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/D4TK5SST4VB7NFQKVXOMTHAGUE.JPG",
+             "descripcion1": "Un agujero negro es una región finita del espacio cuyo interior posee una concentración de masa lo suficientemente elevada como para generar un campo gravitatorio tal que, salvo por un determinado tipo de procesos cuánticos, ninguna partícula ni radiación —ni siquiera la luz— pueden escapar de él​ (en 2021 se observaron reflejos de luz en la parte más lejana del agujero negro).​ Los agujeros negros pueden ser capaces de emitir un tipo de radiación, la radiación de Hawking, conjeturada por Stephen Hawking en la década de 1970. La radiación emitida por agujeros negros como Cygnus X-1 no procede del propio agujero negro sino de su disco de acreción.",
+             "descripcion2": "La gravedad de un agujero negro, o «curvatura del espacio-tiempo», provoca una singularidad envuelta por una superficie cerrada, llamada horizonte de sucesos. Esto es previsto por las ecuaciones del campo de Einstein. El horizonte de sucesos separa la región del agujero negro del resto del universo, y una vez dentro de él, ningún tipo de partícula, sea material o electromagnética, puede salir, ni siquiera los fotones. Dicha curvatura es estudiada por la relatividad general, la que predijo la existencia de los agujeros negros y fue su primer indicio. En la década de 1970, Stephen Hawking, Ellis y Penrose demostraron varios teoremas importantes sobre la ocurrencia y geometría de los agujeros negros.​ Previamente, en 1963, Roy Kerr había demostrado que en un espacio-tiempo de cuatro dimensiones todos los agujeros negros debían tener una geometría cuasiesférica determinada por tres parámetros: su masa M, su carga eléctrica total e y su momento angular"
+          },
+          {
+            "id": 4,
+            "titulo": "Planeta IX",
+            "Extracto": "Uno de los planetas que se lleva años buscando, y uno de los más misteriosos, pero, ¿qué es?",
+            "link": "https://www.robotitus.com/wp-content/uploads/2021/04/planeta-nueve.jpg",
+            "imagen1": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2021/03/Planeta-9-min-scaled.jpg?fit=2560%2C1440&quality=50&strip=all&ssl=1",
+            "imagen2": "https://services.meteored.com/img/article/planet-9-hidden-planet-solar-system-space-astronomy-1654017298417_1280.jpeg",
+            "imagen3": "https://media.vandalsports.com/master/9-2021/202191102459_1.jpg",
+            "descripcion1": "Planeta Nueve, Noveno Planeta o Phattie es el nombre provisional dado a un hipotético planeta helado de gran tamaño que podría existir en el sistema solar exterior, principalmente a partir del estudio publicado el 20 de enero de 2016 en el Astronomical Journal por los astrónomos del Instituto Tecnológico de California (Caltech) Michael E. Brown y Konstantin Batygin. La existencia de este planeta puede inferirse por el comportamiento de un grupo de objetos transneptunianos.",
+            "descripcion2": "​ Según informes de prensa de enero de 2016, Michael E. Brown situaría las probabilidades de la existencia del Planeta Nueve en un 90%.​ Podría tratarse del quinto gigante gaseoso que habría sido expulsado del sistema solar interior según postula el modelo de Niza.​ Su existencia explicaría las órbitas peculiares de dos grupos de objetos del cinturón de Kuiper."
+         },
+         {
+            "id": 5,
+            "titulo": "Materia Oscura",
+            "Extracto": "Un tipo de materia que obtuvo ese nombre porque los astrónomos no podían verla a simple vista, pero supieron de su existencia debido a efectos que provocaba en el espacio.",
+            "link": "https://www.ambientum.com/wp-content/uploads/2022/08/materia-oscura-universo-PIXABAY.jpg",
+            "imagen1": "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2019/11/materia-oscura.jpg?tf=3840x",
+            "imagen2": "https://images.ecestaticos.com/H4eRg3qvDvSl-L1awf50db3tAOo=/88x0:936x1023/1200x1200/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F3ca%2F654%2Ffac%2F3ca654facf37b71b78a3925101441573.jpg",
+            "imagen3": "https://article-imgs.scribdassets.com/2bgzl1ptfk84pt5b/images/fileG26WXJ5T.jpg",
+            "descripcion1": "En astrofísica y cosmología física, se denomina materia oscura a un tipo de materia que se estima corresponde aproximadamente al 26,8% de la materia del universo,​ y que no es energía oscura, materia bariónica (materia ordinaria) ni neutrinos. Su nombre hace referencia a que se considera que no emite ningún tipo de radiación electromagnética (como la luz). De hecho, no interactuaría en ninguna forma con la radiación electromagnética, siendo completamente transparente en todo el espectro electromagnético.​ Su existencia se puede inferir a partir de sus efectos gravitacionales en la materia bajo la consideración de la mecánica newtoniana, tales como el movimiento de las estrellas o las galaxias, así como en las anisotropías del fondo cósmico de microondas presente en el universo.",
+            "descripcion2": "​La materia oscura también desempeña un papel central en la formación de estructuras y la evolución de galaxias y tiene efectos medibles en la anisotropía de la radiación de fondo cósmico de microondas. Todas estas pruebas sugieren que las galaxias, los cúmulos de galaxias y todo el Universo contendría mucha más materia que la que interactúa con la radiación electromagnética: lo restante es llamado el componente de materia oscura"
+         },
+         {
+            "id": 6,
+            "titulo": "Brotes de Rayos Gamma",
+            "Extracto": "Los estallidos de rayos gamma son las explosiones más poderosas conocidas en el universo y generalmente liberan más energía en solo unos segundos que nuestro Sol durante toda su vida útil",
+            "link": "https://editorial.aristeguinoticias.com/wp-content/uploads/2022/10/rayos-gamma-portada-16102022.jpg",
+            "imagen1": "https://plustatic.com/9112/conversions/que-son-brotes-rayos-gamma-default.jpg",
+            "imagen2": "https://plustatic.com/9113/como-se-forman-brotes-rayos-gamma.jpg",
+            "imagen3": "https://heraldodemexico.com.mx/u/fotografias/m/2021/6/1/f1280x720-378507_510182_5050.jpg",
+            "descripcion1": "Los brotes de rayos gamma (también conocidos como GRB, en sus siglas en inglés, o BRG en español) son destellos de rayos gamma asociados con explosiones extremadamente energéticas en galaxias distantes. Son los eventos electromagnéticos más luminosos que ocurren en el universo. Los brotes pueden durar desde unos nanosegundos hasta varias horas,​ pero, por lo general, un brote típico suele durar unos pocos segundos. Con frecuencia son seguidos por una luminiscencia residual de larga duración de radiación a longitudes de onda mayor (rayos X, radiación ultravioleta, luz visible, radiación infrarroja y radiofrecuencia).",
+            "descripcion2": "Si un brote de rayos gamma en la Vía Láctea estuviera lo suficientemente cerca de la Tierra y apuntando en su dirección, podría tener efectos significativos en la biosfera. La absorción de la radiación en la atmósfera causaría la fotólisis del nitrógeno, generando óxido de nitrógeno que actuaría como catalizador para destruir el ozono.​ Según un estudio de 2004, los BRG a una distancia de aproximadamente un kiloparsec podrían destruir hasta la mitad de la capa de ozono de la Tierra; la irradiación UVA directa de los brotes se combinaría con la radiación UVA solar adicional que atravesaría la capa disminuida, lo que podría tener potencialmente un impacto significativo en la cadena alimentaria y desatar una extinción en masa.​ Los autores de ese estudio estiman que un brote semejante puede esperarse cada mil millones de años, y su hipótesis es que las extinciones masivas del Ordovícico-Silúrico pudieron ser el resultado de uno de estos brotes."
+         }
+          
+     ] 
+ }

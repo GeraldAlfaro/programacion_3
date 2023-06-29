@@ -1,0 +1,41 @@
+{
+   "blogs": 
+   [
+      {
+            "id": 1,
+            "titulo": "El Gran Atractor",
+            "Extracto": "La misteriosa región del cosmos hacia donde se dirigen miles de galaxias (incluida la Vía Láctea)",
+            "link": "https://ichef.bbci.co.uk/news/800/cpsprodpb/47A2/production/_129783381_gettyimages-1042985856.jpg",
+            "imagen1": "https://okdiario.com/img/2022/07/22/-en-que-consiste-el-gran-atractor_.jpg",
+            "imagen2": "https://www.ngenespanol.com/wp-content/uploads/2023/05/gran-atractor-galaxias.jpg",
+            "imagen3": "https://plustatic.com/6988/laniakea-que-es.jpg",
+            "descripcion1": "El Gran Atractor es una anomalía gravitatoria, situada en el supercúmulo Laniakea, que arrastra a las galaxias en un radio de más de 300 millones de años luz de distancia. Nuestra galaxia no solo se mueve sino que además se desplaza a gran velocidad, unos 600 kilómetros por segundo hacia un punto de nuestro cosmos al que se denomica el Gran Atractor. El universo es un gran tira y afloja de fuerzas e interacciones, objetos que se atraen y se repelen en un escenario que va expandiéndose. Las galaxias no son ajenas a estas interacciones, y esto implica que también se desplacen atraídas por el influjo gravitatorio de otros cuerpos igualmente o más masivos.",
+            "descripcion2": "Puesto que la materia (incluyendo la materia oscura) no está distribuida uniformemente a lo largo del universo, esta atracción puede hacer que dos galaxias choquen y se fusionen, pero también que, a mayor escala se formen cúmulos y supercúmulos galácticos. Estos supercúmulos tendrán centros de gravedad hacia los que se dirigirá toda la materia presente en ellos como fruto de esta interacción gravitatoria."
+            
+        },
+        {
+            "id": 2,
+            "titulo": "La foto con la mayor erupción solar jamás observada",
+            "Extracto": "La imagen capta lo que se conoce una erupción de protuberancia solar, la más grande que se haya visto hasta ahora.",
+            "link": "https://ichef.bbci.co.uk/news/800/cpsprodpb/D1E0/production/_123382735_solar11.jpg",
+            "imagen1": "https://fotografias.lasexta.com/clipping/cmsimages01/2014/06/13/46A6A213-2E5A-44BE-BFA9-1A2D3D9F5DE1/98.jpg?crop=1920,1080,x0,y0&width=1900&height=1069&optimize=low&format=webply",
+            "imagen2": "https://static.independentespanol.com/2022/05/02/16/April-30-X1-flare_131-171-304-1536x1536.jpeg?quality=75&width=1200&auto=webp",
+            "imagen3": "https://i.blogs.es/e3bbc8/solar-flare-edit/1366_2000.jpg",
+            "descripcion1": "La imagen de la colosal eyección de material solar fue divulgada esta semana por la Agencia Espacial Europea (ESA, por sus siglas en inglés), y fue captada el 15 de febrero por uno de los instrumentos de la nave espacial Solar Orbiter, una misión conjunta de la ESA y la NASA.",
+            "descripcion2": "Las protuberancias solares, no siempre, pero en muchas ocasiones, erupcionan y expulsan material solar al medio interplanetario y eventualmente ese material llega a la Tierra. Un científico señaló que cuando por alguna perturbación el campo magnético se reconfigura, cuando su topología cambia, la energía que estaba almacenada en el campo magnético se transforma en energía cinética, de movimiento del gas, que sale expulsado"
+            
+         },
+         {
+            "id": 3,
+            "titulo": "¿Qué es un agujero negro?",
+            "Extracto": "Es quizás el concepto más popular en la astronomía actualmente. Conocido por ser el monstruo que devora todo a su paso, que ni si quiera la misma luz puede escapar de el.",
+            "link": "https://ichef.bbci.co.uk/news/800/cpsprodpb/119B6/production/_114781127_bh_visualization.jpg",
+            "imagen1": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/1200px-Black_hole_-_Messier_87_crop_max_res.jpg",
+            "imagen2": "https://fotografias.lasexta.com/clipping/cmsimages01/2023/05/05/6EA27988-791E-4A3F-9404-B6B010FEEC4F/recreacion-agujero-negro_98.jpg?crop=1777,1000,x113,y0&width=1900&height=1069&optimize=high&format=webply",
+            "imagen3": "https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/D4TK5SST4VB7NFQKVXOMTHAGUE.JPG",
+            "descripcion1": "Un agujero negro es una región finita del espacio cuyo interior posee una concentración de masa lo suficientemente elevada como para generar un campo gravitatorio tal que, salvo por un determinado tipo de procesos cuánticos, ninguna partícula ni radiación —ni siquiera la luz— pueden escapar de él​ (en 2021 se observaron reflejos de luz en la parte más lejana del agujero negro).​ Los agujeros negros pueden ser capaces de emitir un tipo de radiación, la radiación de Hawking, conjeturada por Stephen Hawking en la década de 1970. La radiación emitida por agujeros negros como Cygnus X-1 no procede del propio agujero negro sino de su disco de acreción.",
+            "descripcion2": "La gravedad de un agujero negro, o «curvatura del espacio-tiempo», provoca una singularidad envuelta por una superficie cerrada, llamada horizonte de sucesos. Esto es previsto por las ecuaciones del campo de Einstein. El horizonte de sucesos separa la región del agujero negro del resto del universo, y una vez dentro de él, ningún tipo de partícula, sea material o electromagnética, puede salir, ni siquiera los fotones. Dicha curvatura es estudiada por la relatividad general, la que predijo la existencia de los agujeros negros y fue su primer indicio. En la década de 1970, Stephen Hawking, Ellis y Penrose demostraron varios teoremas importantes sobre la ocurrencia y geometría de los agujeros negros.​ Previamente, en 1963, Roy Kerr había demostrado que en un espacio-tiempo de cuatro dimensiones todos los agujeros negros debían tener una geometría cuasiesférica determinada por tres parámetros: su masa M, su carga eléctrica total e y su momento angular"
+         }
+         
+    ] 
+}
